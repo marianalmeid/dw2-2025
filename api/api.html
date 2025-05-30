@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Livros - API ISBN</title>
+    <link rel="stylesheet" href="./api.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consultar Livro (ISBN)</h1>
+
+        <form id="isbnForm">
+            <label for="isbnInput">Digite o ISBN:</label>
+            <input type="text" id="isbnInput" placeholder="Exemplo: 9788532530781" required>
+            <button type="submit">Buscar Livro</button>
+            <p id="error" class="error-message"></p>
+        </form>
+
+        <div id="result" class="result-box"></div>
+    </div>
+
+    <script src="./api.js"></script>
+</body>
+</html>
