@@ -25,7 +25,7 @@ form {
     gap: 10px;
 }
 
-input[type="text"] {
+input {
     padding: 10px;
     border: 1px solid #806c8b;
     border-radius: 6px;
