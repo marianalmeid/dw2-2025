@@ -1,0 +1,36 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+   border: 1px black solid;
+   width: 33%;
+
+}
+.input-group {
+  margin: 20px 0;
+}
+
+input {
+  width: 100px;
+  padding: 8px;
+  margin: 0 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: rgb(187, 105, 228);
+}
+
+.resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  
+}
