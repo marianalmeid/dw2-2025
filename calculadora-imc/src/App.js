@@ -10,9 +10,9 @@ function App() {
   const calcularIMC = () => {
     if (!peso || !altura) return;
 
-    const imcCalculado = (parseFloat(peso) / (parseFloat(altura) ** 2)).toFixed(2);
-    setImc(imcCalculado);
-    setCategoria(classificarIMC(imcCalculado));
+    const imcCalc = (parseFloat(peso) / (parseFloat(altura) ** 2)).toFixed(2);
+    setImc(imcCalc);
+    setCategoria(classificarIMC(imcCalc));
   };
 
   const classificarIMC = (imc) => {
